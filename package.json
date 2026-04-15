@@ -1,0 +1,10 @@
+{
+  "name": "datalens",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm --prefix backend start",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "npm run dev:backend"
+  }
+}
